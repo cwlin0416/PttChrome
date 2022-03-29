@@ -40,8 +40,8 @@ const STATE_SB=6;
 function TelnetConnection(app) {
   this.app = app;
 
-  this.host = 'ptt.cc';
-  this.port = 23;
+  this.host = 'rw.muds.net';
+  this.port = 4001;
   this.keepAlive = null;
 
   this.state = STATE_DATA;
